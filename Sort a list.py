@@ -1,6 +1,6 @@
-a=input(("Enter the elements of the list: ")) #getting the input
-b=list(map(int,a.split(',')))
-c=sorted(b)
-d=sorted(b,reverse=True)
+g=input(("Enter the elements of the list: ")) 
+h=list(map(int,g.split(',')))
+c=sorted(h)
+d=sorted(h,reverse=True)
 print("Ascending order: ", c)
 print("Descending order: ",d)
