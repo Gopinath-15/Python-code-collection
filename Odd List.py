@@ -1,6 +1,6 @@
-a=input()
-b=list (map(int,a.split(',')))
-for i in range (len(b)):
-	if(b[i]%2 == 0):
-		b[i] = b[i]+1
-print(b)
+g=input()
+h=list (map(int,g.split(',')))
+for i in range (len(h)):
+	if(h[i]%2 == 0):
+		h[i] = h[i]+1
+print(h)
